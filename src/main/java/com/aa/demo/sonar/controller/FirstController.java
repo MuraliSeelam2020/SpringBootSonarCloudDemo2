@@ -8,6 +8,7 @@ public class FirstController {
 
 	@GetMapping
 	public String firstTest() {
+		System.out.println("start...");
 		return "FirstController test success!!";
 	}
 	
